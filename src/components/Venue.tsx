@@ -2,7 +2,7 @@ export function Venue() {
   return (
     <div className="w-full max-w-2xl mx-auto flex flex-col items-center">
       <div className="flex flex-col items-center text-center space-y-6 w-full">
-        <div className="flex flex-col items-center pt-32">
+        <div className="flex flex-col items-center pt-24 md:pt-28">
           <p className="text-[10px] md:text-xs tracking-[0.4em] text-[#B37A6B] uppercase mb-4 text-center w-full font-sans font-medium">
             The Venue
           </p>
@@ -13,7 +13,7 @@ export function Venue() {
           </p>
         </div>
         
-        <div className="w-[85%] md:w-[80%] max-w-lg aspect-square md:aspect-video rounded-xl overflow-hidden border border-[#EADEC9] shadow-[0_12px_36px_rgba(218,197,167,0.25)] relative p-2 bg-[#FCFAF6]/80 backdrop-blur-sm mt-4">
+        <div className="w-[85%] md:w-[80%] max-w-lg aspect-square md:aspect-video rounded-xl overflow-hidden border border-[#EADEC9] shadow-[0_12px_36px_rgba(218,197,167,0.25)] relative p-2 bg-[#FCFAF6]/80 backdrop-blur-sm mt-2">
           <div className="w-full h-full rounded-lg overflow-hidden relative group">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15610.198305886657!2d75.362145398284!3d11.866896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba422c544d9f67b%3A0xeab4bd3fbaec72d!2sNayanar%20Academy%20%2C%20Kannur!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
