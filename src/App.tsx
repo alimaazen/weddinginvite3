@@ -537,7 +537,7 @@ export default function App() {
           </Section>
 
           {/* Section 6: Thank You */}
-          <Section className="!min-h-[110svh] !h-[110svh] !pb-[10vh] !py-0 flex flex-col items-center justify-center gap-0" bgImage={contentBg}>
+          <Section className="!min-h-[110svh] !pb-[10vh] !py-0 flex flex-col items-center justify-center gap-0" bgImage={contentBg}>
             <motion.div
               initial={{ opacity: 0, scale: 0.9, filter: "blur(5px)" }}
               whileInView={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
@@ -548,16 +548,16 @@ export default function App() {
               <img 
                 src={thanksFlowers} 
                 alt="Decorative Flowers" 
-                className="w-full max-w-[200px] md:max-w-[280px] drop-shadow-md"
+                className="w-full max-w-[280px] md:max-w-[380px] drop-shadow-md"
               />
             
               <div className="-mt-8 md:-mt-12 flex flex-col items-center">
                 <img 
                   src={thanksImage} 
                   alt="Thank You" 
-                  className="w-full max-w-[240px] md:max-w-[320px] drop-shadow-sm"
+                  className="w-full max-w-[320px] md:max-w-[420px] drop-shadow-sm"
                 />
-                <p className="mt-2 text-[8px] md:text-[10px] font-sans tracking-[0.1em] text-[#8F7C73]/90 uppercase text-center w-full whitespace-nowrap drop-shadow-sm font-medium">
+                <p className="mt-3 text-[11px] md:text-[13px] font-sans tracking-[0.12em] text-[#8F7C73]/90 uppercase text-center w-full whitespace-nowrap drop-shadow-sm font-medium">
                   Your presence gives us joy and happiness
                 </p>
               </div>
