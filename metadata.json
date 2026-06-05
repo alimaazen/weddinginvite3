@@ -1,0 +1,6 @@
+{
+  "name": "Elegant Wedding Invitation",
+  "description": "A fluid, scrollable wedding invitation with parallax effects and animated reveals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
