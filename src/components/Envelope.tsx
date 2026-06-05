@@ -223,7 +223,7 @@ export function Envelope({ onOpen, isOpen }: EnvelopeProps) {
                     : { duration: 0.3, ease: "easeOut" },
                   opacity: { duration: 0.3, ease: "easeOut" },
                 }}
-                className="absolute z-30 left-1/2 top-[60%] -translate-x-1/2 -translate-y-1/2 w-28 h-28 cursor-pointer flex items-center justify-center hover:scale-105 active:scale-95 transition-transform"
+                className="absolute z-30 left-1/2 top-[60%] -translate-x-1/2 -translate-y-1/2 cursor-pointer flex flex-col items-center hover:scale-105 active:scale-95 transition-transform group"
                 style={{ zIndex: 100 }}
                 onClick={(e) => { 
                   e.stopPropagation(); 
@@ -233,9 +233,12 @@ export function Envelope({ onOpen, isOpen }: EnvelopeProps) {
                 <img
                   src={waxSealImage}
                   alt="Wax Seal"
-                  className="w-full h-full object-contain rounded-full drop-shadow-2xl"
+                  className="w-28 h-28 object-contain rounded-full drop-shadow-2xl"
                   referrerPolicy="no-referrer"
                 />
+                <span className="mt-2 text-[8px] md:text-[9.5px] uppercase tracking-[0.25em] text-[#8F7C73]/90 font-sans font-semibold group-hover:text-[#B37A6B] drop-shadow-md transition-colors duration-300">
+                  Tap to open
+                </span>
               </motion.div>
             </motion.div>
 

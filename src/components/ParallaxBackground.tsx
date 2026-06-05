@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react';
-import mainBg from '@/assets/download_6.jpg';
+import mainBg from '@/assets/download_6.png';
 
 export function ParallaxBackground() {
   const ref = useRef<HTMLDivElement>(null);
