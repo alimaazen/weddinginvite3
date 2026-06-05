@@ -436,7 +436,7 @@ export default function App() {
             bgImage={venueBg} 
             decorations={
               <motion.div
-                className="absolute top-0 left-1/2 -translate-x-1/2 w-32 md:w-48 z-10 origin-top flex flex-col items-center pointer-events-none"
+                className="absolute top-0 left-1/2 -translate-x-1/2 w-40 md:w-64 z-10 origin-top flex flex-col items-center pointer-events-none"
                 animate={{ rotate: [-2, 2, -2] }}
                 transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
               >
